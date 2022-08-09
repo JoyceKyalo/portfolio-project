@@ -30,6 +30,11 @@ button {
   border-radius: 4px;
 }
 
+.my-skill {
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: 600;
+}
 .hero {
   margin-top: 230px;
 }
@@ -54,4 +59,21 @@ button {
 
 .project-description {
   font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .my-skill,
+  .my-location {
+    text-align: center;
+  }
 }
