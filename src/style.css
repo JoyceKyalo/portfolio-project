@@ -1,15 +1,17 @@
 :root {
   --header-font: "Arima", cursive;
   --content-font: "Roboto Serif", serif;
-  --font-color: #091441;
+  --primary-color: #091441;
+  --secondary-color: #dfbb9e;
 }
 
 body {
-  color: var(--font-color);
-  background: #dfbb9e;
+  color: var(--primary-color);
+  font-family: var(--content-font);
 }
 
-h1 {
+h1,
+h2 {
   font-family: var(--header-font);
   font-weight: bold;
 }
@@ -17,8 +19,15 @@ h1 {
 img {
   width: 250px;
   margin-top: 150px;
-  border: 4px solid var(--font-color);
+  border: 4px solid var(--primary-color);
   border-radius: 5px;
+}
+
+button {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
 }
 
 .hero {
@@ -28,4 +37,21 @@ img {
 .hero p {
   font-size: 22px;
   font-weight: 400;
+}
+
+.hero-top {
+  background: var(--secondary-color);
+  padding: 40px 0px 40px 0px;
+}
+
+.hero-bottom {
+  margin-bottom: 60px;
+}
+
+.project-titles {
+  line-height: 50px;
+}
+
+.project-description {
+  font-family: "Roboto", sans-serif;
 }

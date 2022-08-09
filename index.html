@@ -13,8 +13,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Roboto+Serif:opsz,wght@8..144,200&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Roboto&family=Roboto+Serif:opsz@8..144&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/style.css" />
@@ -29,18 +31,46 @@
     ></script>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5 hero">
-          <h1>Hi 👋🏾, I'm Joyce</h1>
-          <p>A Front-end Developer based in Nairobi, Kenya</p>
+    <div class="hero-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 hero">
+            <h1>Hi 👋🏾, I'm Joyce</h1>
+            <p>A Front-end Developer based in Nairobi, Kenya</p>
+          </div>
+          <div class="col-sm-7">
+            <img
+              src="/images/photo.jpg"
+              alt="A picture of me"
+              class="img-fluid"
+            />
+          </div>
         </div>
-        <div class="col-sm-7">
-          <img
-            src="/images/photo.jpg"
-            alt="A picture of me"
-            class="img-fluid"
-          />
+      </div>
+    </div>
+    <p class="text-center mt-5 mb-4 fw-bold">
+      Featured projects showing some of my best work
+    </p>
+    <div class="hero-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2 class="project-titles">Music App</h2>
+            <p class="project-description text-dark">
+              Built using HTML, CSS and some basic JavaScript, this webpage is
+              all about my love for music 🎧
+            </p>
+            <button>Music App</button>
+          </div>
+          <div class="col-sm-6">
+            <h2 class="project-titles">Weather App</h2>
+            <p class="project-description text-dark">
+              Built using HTML, CSS and some advanced JavaScript, this website
+              shows you the current and weekly weather forecast of cities around
+              the world 🌤
+            </p>
+            <button>Weather App</button>
+          </div>
         </div>
       </div>
     </div>
