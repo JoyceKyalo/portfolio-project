@@ -30,6 +30,10 @@ button {
   border-radius: 4px;
 }
 
+hr {
+  border: 2px solid #000000;
+}
+
 .my-skill {
   margin-bottom: 0px;
   font-size: 28px;
