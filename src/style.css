@@ -61,6 +61,14 @@ button {
   font-family: "Roboto", sans-serif;
 }
 
+.about-me {
+  background: var(--secondary-color);
+  padding: 120px 120px 80px 120px;
+}
+
+.about-me-content {
+  font-size: 18px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 34px;
