@@ -61,14 +61,20 @@ button {
   font-family: "Roboto", sans-serif;
 }
 
-.about-me {
+.content-container {
   background: var(--secondary-color);
   padding: 120px 120px 80px 120px;
 }
 
-.about-me-content {
+.content {
   font-size: 18px;
 }
+
+.project-image {
+  width: 400px;
+  margin: 0;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 34px;
