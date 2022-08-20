@@ -43,6 +43,7 @@ nav a {
   font-size: 28px;
   font-weight: 600;
 }
+
 .hero {
   margin-top: 130px;
 }
@@ -87,6 +88,14 @@ nav a {
   background-color: var(--secondary-color);
 }
 
+.navbar-toggler {
+  background-color: var(--secondary-color) !important;
+}
+
+.burger-icon {
+  color: #091441 !important;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 34px;
@@ -101,5 +110,18 @@ nav a {
   .my-skill,
   .my-location {
     text-align: center;
+  }
+
+  .content-container {
+    padding: 0px 0px 0px 10px;
+    margin-top: 45px;
+  }
+
+  .hero-top {
+    padding: 0px 0px 40px 0px;
+  }
+
+  .hero {
+    margin-top: 45px;
   }
 }
