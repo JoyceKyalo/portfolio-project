@@ -30,12 +30,25 @@ button {
   border-radius: 4px;
 }
 
+hr {
+  width: 20%;
+  border: 3px solid var(--primary-color);
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 nav {
   background-color: var(--primary-color) !important;
+  position: fixed;
 }
 
 nav a {
   color: var(--secondary-color) !important;
+}
+
+.active {
+  color: #ffffff !important;
 }
 
 .my-skill {
@@ -93,7 +106,7 @@ nav a {
 }
 
 .burger-icon {
-  color: #091441 !important;
+  color: #091441;
 }
 
 .project-links {
@@ -157,5 +170,13 @@ nav a {
 
   .hero {
     margin-top: 45px;
+  }
+
+  .weather-project-title {
+    margin-top: 20px;
+  }
+
+  .footer-links {
+    margin-top: 120px;
   }
 }
