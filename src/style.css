@@ -117,6 +117,11 @@ nav a {
   border-radius: 4px;
 }
 
+.project-links:hover {
+  color: #ffffff;
+  transition: all 100ms ease-in-out;
+}
+
 .footer-links {
   padding: 40px 0px;
   background-color: #ffffff;
