@@ -148,6 +148,11 @@ nav a {
   color: var(--primary-color);
   font-size: 18px;
 }
+
+.coder {
+  text-align: center;
+  font-size: 14px;
+}
 @media (max-width: 820px) {
   h1 {
     font-size: 34px;
