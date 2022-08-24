@@ -1,8 +1,8 @@
 :root {
   --header-font: "Arima", cursive;
   --content-font: "Roboto Serif", serif;
-  --primary-color: black;
-  --secondary-color: rgb(144, 241, 239);
+  --primary-color: #000000;
+  --secondary-color: #90f1ef;
 }
 
 body {
@@ -106,7 +106,7 @@ nav a {
 }
 
 .burger-icon {
-  color: #091441;
+  color: #000000;
 }
 
 .project-links {
