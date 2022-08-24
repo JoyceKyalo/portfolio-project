@@ -1,8 +1,8 @@
 :root {
   --header-font: "Arima", cursive;
   --content-font: "Roboto Serif", serif;
-  --primary-color: #ffa69e;
-  --secondary-color: rgb(18, 22, 25);
+  --primary-color: black;
+  --secondary-color: rgb(144, 241, 239);
 }
 
 body {
